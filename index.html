@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Top Tur</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/styles/custom.css">
+  <link rel="stylesheet" href="./assets/styles/gallery.css">
+  <link rel="stylesheet" href="./assets/styles/icons.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+ 
+ <style>
+    .intro {
+      height: calc(100vh - 56px);
+      background-image: linear-gradient(to bottom, rgba(2, 48, 71, 1), rgba(33, 0, 255, 0.4)), url(./assets/images/6118c2ac6fe5d.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">TRIP TOP TUR</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Galeria</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Roteiro</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="col-md-12 text-center intro">
+    <img class="logo" src="./assets/images/logo.jpeg" alt="logo da Trip Tor Tur">
+    <div class="text-slogan">
+      <strong>Viajar</strong> não é <strong>terapia</strong>,
+      <br> mas é <strong>terapêutico</strong>
+    </div>
+  </div>
+
+  <section class="container section section-roteiro">
+    <div class="text-center">
+      <h3 class="subtitle"><strong>ROTEIRO</strong></h3>
+      <p>
+        Nesta jornada, você terá a oportunidade de explorar as praias mais exuberantes que a natureza pode oferecer. Banhadas por águas de tons azul-turquesa,
+        as praias de Arraial do Cabo são uma visão de tirar o fôlego. Desde a Praia do Farol, conhecida por suas águas tranquilas e areia fina, até a Praia do
+        Pontal, com suas dunas e cenários de tirar o fôlego, cada canto deste paraíso é um convite para relaxar e se maravilhar.
+        Você terá também, passeio de barco com <strong>Festa Open Bar</strong> e <strong>Open Food</strong>.
+      </p> <br>
+
+      <div class="d-flex list-roteiro">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/images/ilha-do-farol.jpg" alt="foto da Ilha do Farol">
+          <div class="card-body">
+            <p class="card-text">Ilha do Farol</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/images/prainhas-do-pontal-do-atalaia.jpg" alt="foto da Prainhas do Pontal do Atalaia">
+          <div class="card-body">
+            <p class="card-text">Prainhas do Pontal do Atalaia</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/images/gruta-do-amor.jpg" alt="foto da Gruta do Amor">
+          <div class="card-body">
+            <p class="card-text">Gruta do Amor</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/images/praia-do-forno.jpg" alt="foto da Praia do Forno">
+          <div class="card-body">
+            <p class="card-text">Praia do Forno</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="container-gallery">
+    <h3 class="subtitle">Explore conosco as memórias de destinos inesquecíveis</h3>
+    <div id="gallery" class="container-fluid">
+      <video class="vid" controls>
+        <source src="./assets/images/gallery/video02.mp4" type="video/mp4">
+        </source>
+      </video>
+      <img src="./assets/images/gallery/9821722a-ff5f-4f4d-97fc-4633547dc13a.jpeg" class="img-responsive">
+      <img src="./assets/images/gallery/324c94949j.jpeg" class="img-responsive">
+      <img src="./assets/images/gallery/4939393q-ff3.jpeg" class="img-responsive">
+      <img src="./assets/images/gallery/338393939391d.jpeg" class="img-responsive">
+      <video class="vid" controls>
+        <source src="./assets/images/gallery/video01.mp4" type="video/mp4">
+        </source>
+      </video>
+      <img src="./assets/images/gallery/8c555f74-07de-428f-9f36-e2a99c19c84e.jpeg" class="img-responsive">
+      <img src="./assets/images/gallery/3c68c886-53c0-4268-b14c-819302e42094.jpeg" class="img-responsive">
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="text-center">
+      <h3 class="subtitle"><span class="text-color-specif">DAY USE</span> <br> <strong>ARRAIAL DO CABO</strong></h3>
+      <p>
+        Arraial do Cabo, na antiga Região dos Lagos do Rio de Janeiro,
+        é um dos mais espetaculares destinos do Brasil. Com acesso fácil,
+        ensolarados o ano inteiro e praia deslumbrantes.
+      </p>
+
+      <div class="d-flex container-lists">
+        <ul>
+          <li>✓ Festa open bar</li>
+          <li>✓ Open food liberado</li>
+          <li>✓ Onibus executivo</li>
+        </ul>
+        <ul>
+          <li>✓ Passeio de barco</li>
+          <li>✓ Taxa da marinha</li>
+          <li>✓ Translado de Jardineira</li>
+        </ul>
+        <ul>
+          <li>✓ Guía de turismo cadastrado</li>
+          <li>✓ Seguro viagem</li>
+          <li>✓ Muito mais</li>
+        </ul>
+      </div>
+
+      <span class="price">
+        <strong>por: R$499,00</strong>
+      </span>
+    </div>
+  </section>
+
+  <section class="container section section-ainda-vms-ter">
+    <div class="text-center">
+      <h3 class="subtitle"><strong>Ainda vamos ter:</strong></h3>
+      <div class="d-flex container-lists">
+        <ul>
+          <li>✓ Cerveja</li>
+          <li>✓ Água</li>
+          <li>✓ Caipirinha</li>
+          <li>✓ Refrigerante</li>
+          <li>✓ Suco</li>
+        </ul>
+        <ul>
+          <li>✓ Shot de Tequila drink</li>
+          <li>✓ Churrasco</li>
+          <li>✓ Boi</li>
+          <li>✓ Porco</li>
+          <li>✓ Frango</li>
+        </ul>
+        <ul>
+          <li>✓ Pão</li>
+          <li>✓ Hambúrguer</li>
+          <li>✓ Mesa de frios</li>
+          <li>✓ Frutas</li>
+          <li>✓ Animador</li>
+        </ul>
+      </div>
+
+      <a href="#" class="btn btn-primary btn-lg custom-btn">Quero Ir!</a>
+    </div>
+  </section>
+
+  <div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+55(11)96603-6624&text=Olá, agência Trip Top Tur." class="float" target="_blank">
+      <span class="icon icon-whatsapp"></span>
+    </a>
+  </div>
+
+  <footer class="text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <h4>Trip Top Tur</h4>
+          <p>Seu parceiro confiável em viagens incríveis.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p>Entre em contato:</p>
+          <p><i class="bi bi-envelope-fill me-2"></i> contato@triptoptur.com</p>
+          <p><i class="bi bi-telephone-fill me-2"></i>+55 (11) 96603-6624</p>
+        </div>
+      </div>
+      <hr class="mt-4">
+      <div class="row">
+        <div class="col text-center">
+          <p>Siga-nos nas redes sociais:</p>
+          <div class="d-flex justify-content-center gap-3">
+            <a href="https://www.instagram.com/trip.toptur/" target="_blank">
+              <span class="icon icon-instagram"></span>
+            </a>
+            <a href="https://twitter.com/trip.toptur" target="_blank">
+              <span class="icon icon-twitter"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-4">
+      <div class="row">
+        <div class="col text-center">
+          <p>&copy; 2023 Trip Top Tur. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navbarToggler = document.querySelector(".navbar-toggler");
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+
+      navbarToggler.addEventListener("click", function () {
+        navbarCollapse.classList.toggle("show");
+      });
+    });
+  </script>
+</body>
+
+</html>
